@@ -1,0 +1,108 @@
+.SideBar{
+    background-color: #000;
+    height: 100vh;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+.logo{
+    width: 130px;
+    height: 130px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.buttons{
+    padding:23px;
+    margin-top: -35px;
+    font-size: 13px;
+    color: #a3a3a3;
+    font-weight: 700;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.active{
+    background-color: #232323;
+    padding: 10px 10px 10px 15px;
+    width: 225px;
+    border-radius: 5px;
+    margin-left: -15px;
+    color: #fff;
+}
+.button p{
+    margin-left: 15px;
+    margin-top: 5px;
+    transition: all ease 0.3s;    
+}
+.button:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.button.search{
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+.button.search p{
+    margin-top: 2.5px;
+}
+.button.you{
+    margin-top: -12px;
+}
+.playlists{
+    margin-top: 40px;
+}
+
+.button.playlist p{
+    margin-top: 3px;
+}
+.box-button{
+    width: 24px;
+    height: 24px;
+    background-color: #a3a3a3;
+    border-radius: 2px;
+}
+.box-button{
+    width: 24px;
+    height: 24px;
+    background-color: #a3a3a3;
+    border-radius: 2px;
+}
+.box-button-playlist{
+    width: 24px;
+    height: 24px;
+    background: rgb(255,255,255);
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(116,45,253,1) 100%);
+    border-radius: 2px;
+}
+.heart-playlist{
+    width: 14px;
+    height: 14px;
+    fill: white;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.button-other-playlists{
+    border-top: 0.2px solid #3f3f3f;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.button-other-playlists p{
+    margin: 0;
+    margin-bottom: 16px;
+    font-weight: 600;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+.button-other-playlists p:hover{
+    color: #fff;
+}
+@media screen and (max-width: 375px){
+    .SideBar{
+        display: none;
+    }
+}

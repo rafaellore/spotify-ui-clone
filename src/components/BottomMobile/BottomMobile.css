@@ -1,0 +1,48 @@
+.bottom-mobile{
+    width: 100%;
+    height: 70px;
+    z-index: 3;
+    background: rgb(35,35,35);
+    position: fixed;
+    border-top: 1px solid #4e4e4e;
+    bottom: 0;
+    display: none;
+    padding:12px 20px 12px 10px;
+}
+.bottom-mobile p{
+    font-size: 11px;
+    color: #a8a8a8;
+}
+.active-bottom{
+    color: #fff;
+}
+.home-bottom{
+    margin-left: 3px;
+}
+.search-bottom{
+    margin-left: 5px;
+}
+.playlist-bottom{
+    margin-left: 9px;
+}
+.spotify-bottom{
+    margin-left: 9px;
+}
+.mobile-icons{
+    padding: 0 25px;
+}
+.mobile-active{
+    padding: 0 25px;
+}
+.mobile-active p{
+    color: #fff;
+}
+.bottom-active{
+    color: #fff;
+}
+@media screen and (max-width: 375px){
+    .bottom-mobile{
+        display: flex;
+        flex-direction: row;
+    }
+}
