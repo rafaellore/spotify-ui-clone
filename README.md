@@ -26,3 +26,6 @@ OBS: Pode ser que o projeto contenha erros dependendo da versão npm que você t
 ### `npm audit fix`
 
 Pronto, agora é só rodar o projeto direto da sua máquina! :wink:
+Use o seguinte comando; 
+
+### `npm start`
