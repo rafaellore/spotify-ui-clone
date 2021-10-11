@@ -11,7 +11,7 @@ Fiz algumas alterações quanto ao original pois o mesmo não possui botões de 
 ![](prints/print-mobile1.png)
 ![](prints/print-mobile2.png)
 
-## Clonando o projeto
+## Rodando o projeto
 
 Para clonar o projeto, basta usar o seguinte comando:
 
@@ -26,6 +26,7 @@ OBS: Pode ser que o projeto contenha erros dependendo da versão npm que você t
 ### `npm audit fix`
 
 Pronto, agora é só rodar o projeto direto da sua máquina! :wink:
-Use o seguinte comando; 
+
+Use o seguinte comando:
 
 ### `npm start`
